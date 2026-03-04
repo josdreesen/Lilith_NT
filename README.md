@@ -37,4 +37,5 @@ Mainboard : carrries the above mentioned boards in dedicated slots.
                         
       
 
-  
+The subdirectories, one for each pcb,  contain a .zip file with the gerbers, a .pdf with the schematic, a rendering of the PCB
+and the Kicad Database itself.
