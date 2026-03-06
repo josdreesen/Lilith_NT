@@ -1,6 +1,6 @@
 # Lilith_NT
 
-This database documents my attempt to recreate the 1980's ETH Lilith Modula-2 workstation. Both hardware and software is to be docuemnted here.
+This database documents my attempt to recreate the 1980's ETH Lilith Modula-2 workstation. Both hardware and software is to be documented here.
 
 The actual CPU will be identical to the original machine, shortcuts will be made to avoid some of the original problems :
 - The disk was either a Honeywell-Bull 10Mb cartridge drive, or a 15Mb  MFM drive, controlled by a WD1001.
@@ -8,9 +8,9 @@ The actual CPU will be identical to the original machine, shortcuts will be made
 - The original ha 4 PCB's with each 32 4116-type DRAM-chips, for a total of 128K 16bit words.
 - NEW -> a single PCB will hold 16 256Kx4 chips, for a total of 1M 16bit words.
   Other characteristics will remain the same ( i.e. write access in 16bit words, read access in either 16bit of 64bit words)
-- NEW : DIN41642 connecdtors will replace the original, hard to find and expensive 1.125" spaced board edhe connectors.
+- NEW : DIN41642 connectors will replace the original, hard to find and expensive 1.125" spaced board edge connectors.
 
-Lilith-NT hardware consists of 8 PCB's, all newly designed in a more compact format :
+Lilith-NT's hardware consists of 8 PCB's, all newly designed in a more compact format (Dual eurocard, 233.4mm x 152mm)
 
 DPU : a MC6802 based debugging aid. This takes over the main busses in the system, allowing direct access to the hardware.
       Original schematic, slightly newer memory chips, new board layout.
@@ -29,11 +29,12 @@ DRAM: main memory, consisting of 16 4x256K DRAMs. Updated design of the original
       
 DSP : Display unit / Videocard. Original schematic with a new board layout.      
 
-IOP : IO board : new design, new PCB combining keyboard & mouse interface. 
-      Also contains 2 serial channels, ATA / DOM disk, floppy interface and RTC chip.
+IOP : IO board : new design, new PCB combining PS2 keyboard & mouse interface. 
+      Also contains 2 serial channels, ATA/DOM disk, floppy interface and RTC chip.
       
 Mainboard : carrries the above mentioned boards in dedicated slots.
-            New design, using DIN-connectors instead of the cardedge connectors to reduce cost and increas reliability.
+            New design, using DIN-connectors instead of the PCB cardedge connectors to reduce cost and increase reliability.
+            Goldplating PCB's is considerable more expensive than just using the DIN connectors.
                         
       
 
