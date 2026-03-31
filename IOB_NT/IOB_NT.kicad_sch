@@ -26648,10 +26648,6 @@
 		(uuid "112a78ec-e2b1-488f-b5d6-ed88ec324f88")
 	)
 	(no_connect
-		(at 72.39 154.94)
-		(uuid "1420fc92-56ee-45fc-85e8-f31e65665bda")
-	)
-	(no_connect
 		(at 72.39 152.4)
 		(uuid "1522c562-ea79-40cd-88a5-b2f22ee64dcc")
 	)
@@ -26664,7 +26660,11 @@
 		(uuid "163d2094-33ee-4544-ab34-ab3963ac64dd")
 	)
 	(no_connect
-		(at 203.2 374.65)
+		(at 87.63 331.47)
+		(uuid "1643bfdb-b3e4-4703-baa3-f46e55f33759")
+	)
+	(no_connect
+		(at 53.34 334.01)
 		(uuid "169e8a8b-c756-47c3-b541-cff2bdb161ed")
 	)
 	(no_connect
@@ -26988,10 +26988,6 @@
 		(uuid "a707770b-1871-4d55-91ae-dbe45b731cc6")
 	)
 	(no_connect
-		(at 218.44 372.11)
-		(uuid "aa1e66f4-7953-4e50-aa7b-225d368f7bbe")
-	)
-	(no_connect
 		(at 494.03 220.98)
 		(uuid "b0450579-a65b-468d-bdf2-1b1bb241cee5")
 	)
@@ -27080,7 +27076,7 @@
 		(uuid "c4da1f5f-92cf-427b-be4c-add5b46075e3")
 	)
 	(no_connect
-		(at 203.2 369.57)
+		(at 53.34 328.93)
 		(uuid "c74c6054-70b6-4676-b600-ed3a81ad3e98")
 	)
 	(no_connect
@@ -32531,7 +32527,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 313.69) (xy 74.93 313.69)
+			(xy 82.55 313.69) (xy 92.71 313.69)
 		)
 		(stroke
 			(width 0)
@@ -34301,16 +34297,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 313.69) (xy 90.17 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7feccd13-d802-48f1-9281-06052974d5f2")
-	)
-	(wire
-		(pts
 			(xy 554.99 93.98) (xy 557.53 93.98)
 		)
 		(stroke
@@ -35758,6 +35744,16 @@
 			(type default)
 		)
 		(uuid "9d162837-f39e-46b0-858b-00ba8819230f")
+	)
+	(wire
+		(pts
+			(xy 68.58 331.47) (xy 72.39 331.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2a4995-01ae-4fdd-849b-e2ed02d3ce05")
 	)
 	(wire
 		(pts
@@ -38568,6 +38564,16 @@
 			(type default)
 		)
 		(uuid "cd58fe65-f516-403f-a9b2-4f3295bf7ad8")
+	)
+	(wire
+		(pts
+			(xy 72.39 154.94) (xy 80.01 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd830bc2-2538-4872-983f-d45adacc8604")
 	)
 	(wire
 		(pts
@@ -43600,7 +43606,7 @@
 		(uuid "70d2e3f0-2c00-458b-8a9d-026f5e36c5ed")
 	)
 	(label "~{io_dt}"
-		(at 71.12 313.69 180)
+		(at 82.55 313.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44198,6 +44204,16 @@
 			(justify right bottom)
 		)
 		(uuid "8a5f3ab3-7b1b-44e1-a238-bdc0db611e92")
+	)
+	(label "~{bnk14}"
+		(at 80.01 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a7f4c76-fc39-40b1-a7c2-011a412ab595")
 	)
 	(label "~{fdc}"
 		(at 124.46 289.56 0)
@@ -48055,7 +48071,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 210.82 372.11 0)
+		(at 60.96 331.47 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48063,7 +48079,7 @@
 		(dnp no)
 		(uuid "118b439c-30d8-4ecc-b04e-965411ebcb6b")
 		(property "Reference" "U39"
-			(at 211.074 372.364 0)
+			(at 61.214 331.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48071,7 +48087,7 @@
 			)
 		)
 		(property "Value" "74LS32"
-			(at 216.408 368.554 0)
+			(at 66.548 327.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48079,7 +48095,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 210.82 372.11 0)
+			(at 60.96 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48088,7 +48104,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 210.82 372.11 0)
+			(at 60.96 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48097,7 +48113,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 210.82 372.11 0)
+			(at 60.96 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63380,7 +63396,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 82.55 313.69 0)
+		(at 80.01 331.47 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -63388,7 +63404,7 @@
 		(dnp no)
 		(uuid "df00aa30-6c31-4de3-8209-88ccfe7ce454")
 		(property "Reference" "U21"
-			(at 81.788 313.436 0)
+			(at 79.248 331.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63396,7 +63412,7 @@
 			)
 		)
 		(property "Value" "74LS04"
-			(at 85.598 310.896 0)
+			(at 83.058 328.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63404,7 +63420,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 82.55 313.69 0)
+			(at 80.01 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63413,7 +63429,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 82.55 313.69 0)
+			(at 80.01 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63422,7 +63438,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 82.55 313.69 0)
+			(at 80.01 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
