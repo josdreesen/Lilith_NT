@@ -123,7 +123,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.254,
+        "min_clearance": 0.2032,
         "min_connection": 0.254,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -137,7 +137,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.3048,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.09,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -464,14 +464,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Backplane_NT.kicad_pro",
+    "filename": "Backplane_LA.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.254,
+        "clearance": 0.2032,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -489,7 +489,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.254,
+        "clearance": 0.2032,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -537,7 +537,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "Backplane_NT.net",
+      "netlist": "Backplane_LA.net",
       "plot": "Gerbers",
       "pos_files": "",
       "specctra_dsn": "",
