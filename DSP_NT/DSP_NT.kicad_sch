@@ -17302,7 +17302,7 @@
 		(uuid "5d0a2481-a44c-4c9b-98c2-f4876e9dca82")
 	)
 	(no_connect
-		(at 40.64 134.62)
+		(at 44.45 134.62)
 		(uuid "5db60455-a991-4ba7-9d03-48b302d489d5")
 	)
 	(no_connect
@@ -31149,16 +31149,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 134.62) (xy 44.45 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eff08985-8b59-4437-9784-e5c02e42e4f8")
-	)
-	(wire
-		(pts
 			(xy 74.93 109.22) (xy 82.55 109.22)
 		)
 		(stroke
@@ -34179,16 +34169,6 @@
 			(justify left bottom)
 		)
 		(uuid "9d1df267-a50b-4a7f-89a6-e62c8b1d87c3")
-	)
-	(label "dispreq"
-		(at 40.64 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9f5c36bb-fafc-4464-a942-b844cc37c216")
 	)
 	(label "md24"
 		(at 226.06 312.42 270)

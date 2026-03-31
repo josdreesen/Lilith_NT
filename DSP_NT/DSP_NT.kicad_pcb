@@ -459,7 +459,7 @@
 	(net 335 "Net-(J8-C)")
 	(net 336 "/vsync")
 	(net 337 "/~{hsync}")
-	(net 338 "/dispreq")
+	(net 338 "unconnected-(DSP1-PadBT2)")
 	(net 339 "/~{vsync}")
 	(net 340 "-12V")
 	(net 341 "/hsync")
@@ -957,8 +957,8 @@
 			)
 		)
 		(property "Value" "74F244"
-			(at 3.81 25.19 0)
-			(layer "F.Fab")
+			(at 0.7062 25.19 0)
+			(layer "F.SilkS")
 			(uuid "81c9a3c4-b41b-45bd-90a2-bf965bcbf9d7")
 			(effects
 				(font
@@ -2641,8 +2641,8 @@
 		(at 245.1862 116.7742 180)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
-		(property "Reference" "F1"
-			(at -0.6604 -3.0122 0)
+		(property "Reference" "MA18"
+			(at 1.143 -3.0122 0)
 			(layer "F.SilkS")
 			(uuid "130015c1-be7b-4ab6-bc10-13ff375baf71")
 			(effects
@@ -7819,7 +7819,7 @@
 		(at 248.793 116.7892 180)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
-		(property "Reference" "F2"
+		(property "Reference" "MA19"
 			(at -0.5588 -3.1242 180)
 			(layer "F.SilkS")
 			(uuid "9b30b5ba-2b32-49b7-8641-a1c201dbe2f7")
@@ -8518,7 +8518,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14*")
-		(path "/c56e7bf2-82ea-423c-b382-e4f6a6b05757")
+		(path "/21e44937-c6fd-40c8-9bde-fd5757262c5f")
 		(sheetname "/")
 		(sheetfile "DSP_NT.kicad_sch")
 		(attr through_hole)
@@ -10092,7 +10092,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm*")
-		(path "/8abb6003-622d-4dbf-924e-68029ad7dc29")
+		(path "/fda708ac-12b2-4b77-bad3-ee16b80a61fa")
 		(sheetname "/")
 		(sheetfile "DSP_NT.kicad_sch")
 		(attr through_hole)
@@ -12387,7 +12387,7 @@
 			)
 		)
 		(property ki_fp_filters "SO14* DIP*W7.62mm*")
-		(path "/21b59468-e8fd-4ebd-8bee-758e491efa41")
+		(path "/6a725fba-e233-46fe-89ff-eda9789220d1")
 		(sheetname "/")
 		(sheetfile "DSP_NT.kicad_sch")
 		(attr through_hole)
@@ -14520,7 +14520,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SSOP?14* TSSOP?14*")
-		(path "/7b116a65-d54c-4570-ad3f-e1146b2eb689")
+		(path "/d24b6bc8-b66b-4e18-b6c5-84df2c8b6b22")
 		(sheetname "/")
 		(sheetfile "DSP_NT.kicad_sch")
 		(attr through_hole)
@@ -19546,7 +19546,7 @@
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
 			(zone_layer_connections)
-			(net 338 "/dispreq")
+			(net 338 "unconnected-(DSP1-PadBT2)")
 			(pintype "passive+no_connect")
 			(uuid "b840fce8-99ce-4dcb-9047-500e72f13fb7")
 		)
@@ -22231,7 +22231,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at 0 -1.85 180)
+			(at 0 -2.54 180)
 			(layer "F.SilkS")
 			(uuid "c8eaec07-e1e1-4d61-af93-3c7711ea9535")
 			(effects
@@ -38472,6 +38472,17 @@
 		(layer "Edge.Cuts")
 		(uuid "b19dca29-b966-4eb0-aa27-16aa4fc76830")
 	)
+	(gr_text "1"
+		(at 242.4684 116.7384 0)
+		(layer "F.SilkS")
+		(uuid "1c4e2e35-5c3a-4ea0-ac60-f1f8feca226d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "Serial:"
 		(at 24.638 168.402 0)
 		(layer "F.SilkS")
@@ -38510,8 +38521,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Field\nselect"
-		(at 245.1862 109.474 0)
+	(gr_text "Field select"
+		(at 241.6556 108.9152 0)
 		(layer "F.SilkS")
 		(uuid "633d6eb0-4e33-4adc-97e8-a5411f820755")
 		(effects
@@ -38546,6 +38557,17 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "0"
+		(at 242.4176 111.7092 0)
+		(layer "F.SilkS")
+		(uuid "8029bceb-bab1-4fc5-9bde-c6d068d2b89e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "V1.0"
